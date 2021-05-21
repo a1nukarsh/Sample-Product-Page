@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Main Container */
+.main-container {
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 60px 150px 60px 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 252, 252);
+}
+
+/* Left Container */
+.left-container {
+  border: 2px solid green;
+  width: 55%;
+}
+
+/* Right Container */
+.right-container {
+  font-family: 'Roboto', sans-serif;
+  /* border: 2px solid blue; */
+  padding: 40px 40px 40px 60px;
+  width: 45%;
+}
+.heading {
+  margin: 25px 0px;
+  font-size: 18px;
+  /* border: 2px solid yellow; */
+  font-family: "DM Serif Display", serif;
+}
+.sub-heading {
+  font-weight: bolder;
+  font-size: 14px;
+  /* border: 2px solid pink; */
+  margin: 25px 0px;
+  line-height: 1.8;
+
+}
+.description {
+  font-size: 13px;
+  /* border: 2px solid red; */
+  margin: 25px 0px;
+  line-height: 1.7;
+}
+.review {
+  /* border: 2px solid black; */
+  margin: 25px 0px;
+  font-size: 12px;
+}
+.star{
+  margin: 10px 0;
+}
+.fa.fa-star {
+  color: rgb(95, 206, 159);
+}
+.ratings span {
+  color: rgb(95, 206, 159);
+}
+.submit-review{
+  margin: 18px 0 0 0;
+  border-bottom: 1px solid black;
+  width: 79px;
+}
+.submit-review a{
+  color: black;
+  text-decoration: none;
+}
+.price {
+  /* border: 2px solid purple; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 29px;
+  font-weight: bolder;
+  margin: 25px 0px;
+}
+.buyinfo {
+  /* border: 2px solid orange; */
+  margin: 25px 0px;
+}
+.fa.fa-clock-o{
+  width: 12px;
+  padding: 0 5px 0 0;
+}
+.buyinfo p{
+  margin: 10px 0;
+  font-size: 13px;
+}
+.buy-btns{
+  font-size: 16px;
+}
+.cart-btn{
+  padding: 12px 32px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all linear;
+  border: 2px solid black;
+}
+.cart-btn:hover{
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+.wlist-btn{
+  padding: 12px 32px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.3s all linear;
+  border: 2px solid black;
+}
+.wlist-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/* Bottom Container */
+.bottom-container {
+  /* border: 2px solid blue; */
+  background-color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+.payment{
+  /* border: 2px solid green; */
+  display: flex;
+  margin: 18px 38px;
+  padding: 9px;
+}
+.icon{
+  /* border: 2px solid red; */
+  margin: 0 4px;
+  padding-top: 5px;
+  padding-right: 7px;
+}
+.b-content{
+  /* border: 2px solid blue; */
+  line-height: 1.9;
+}
+.b-content-head{
+  font-size: 13px;
+  font-weight: bolder;
+}
+.b-content-sub-head{
+  font-size: 12px;
+}
+
+.delivery{
+  /* border: 2px solid green; */
+  display: flex;
+  margin: 18px 38px;
+  padding: 9px;
+}
+.return{
+  /* border: 2px solid green; */
+  display: flex;
+  margin: 18px 38px;
+  padding: 9px;
+}
+
