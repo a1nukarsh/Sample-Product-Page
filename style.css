@@ -14,16 +14,16 @@
 
 /* Left Container */
 .left-container {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 55%;
   margin: 0 15px 0 0;
-  height: 595px;
+  /* height: 595px; */
 }
 
 /* Right Container */
 .right-container {
   font-family: 'Roboto', sans-serif;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding: 40px 40px 40px 60px;
   width: 45%;
 }
@@ -93,6 +93,7 @@
   font-size: 16px;
 }
 .cart-btn{
+  margin: 0 12px 0 0;
   padding: 12px 32px;
   background-color: black;
   color: white;
